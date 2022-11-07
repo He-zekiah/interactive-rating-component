@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+    <div class="content">
+      <div class="first1">
+        <div class="pic">
+          <img src="./images/icon-star.svg" class="con__img" alt="Desktop-img" />
+        </div>
+        <p class="head">How did we do?</p>
+        <p class="info">
+          Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+          offering!
+        </p>
+        <div class="num">
+          <p class="rate" id="first">1</p>
+          <p class="rate" id="second">2</p>
+          <p class="rate" id="third">3</p>
+          <p class="rate" id="fourth">4</p>
+          <p class="rate" id="fifth">5</p>
+        </div>
+        <button class="click" id="submit">SUBMIT</button>
+      </div>
+      <div class="second2">
+        <img src="./images/illustration-thank-you.svg" class="img2" alt="Desktop-img" />
+        <p class="result">You selected <span id="change">0</span> out of 5</p>
+        <p class="app">Thank You!</p>
+        <p class="conclusion">
+          We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>

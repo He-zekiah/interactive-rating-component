@@ -1,0 +1,163 @@
+@import url(https://fonts.google.com/specimen/Overpass);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Overpass;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 550px;
+    height: 550px;
+    background-color: hsl(218, 17%, 15%);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 40px;
+}
+
+.first1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.second2 {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.visible {
+    display: flex;
+}
+
+.invisible {
+    display: none;
+}
+
+.img2 {
+    width: 200px;
+}
+
+.result {
+    width: 280px;
+    height: 35px;
+    background-color: hsl(215, 16%, 26%);
+    text-align: center;
+    padding: 3px;
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.app {
+    font-size: 40px;
+    color: #fff;
+    margin-top: 35px;
+}
+
+.conclusion {
+    margin-top: 20px;
+    text-align: center;
+    color: hsl(216, 12%, 54%);
+    font-size: 23.2px;
+}
+
+.pic {
+    background-color: hsl(215, 16%, 26%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con__img {
+    width: 20px;   
+    display: flex;
+    
+}
+
+.head {
+    font-size: 40px;
+    color: white;
+    margin-top: 40px;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 22px;
+    color: hsl(216, 12%, 54%);
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.num {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.rate {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: hsl(215, 16%, 26%);
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    color: hsl(216, 24%, 65%);
+    cursor: pointer;
+}
+
+/* .rate:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+} */
+
+.active {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+
+
+.click {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    height: 60px;
+    margin-top: 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    border:  1px solid hsl(25, 97%, 53%);
+}
+.click:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+    font-weight: bold;
+    border: 1px solid #fff;
+}
